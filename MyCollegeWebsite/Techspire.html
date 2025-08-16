@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techspire College MBA Program</title>
+    <link rel="stylesheet" href="Techspire.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <header>
+        <nav class="navbar-container">
+          <div class="logo-container">
+            <img src="Photos/Techlogo.jpg" alt="College logo" />
+          </div>
+          <div class="nav-links-container">
+            <div class="links">
+              <a href="">Overview</a>
+
+              <div class="dropdown">
+                <button class="dropdown-btn">About Us</button>
+                <div class="dropdown-content">
+                  <a href="">About College</a>
+                  <a href="">About University</a>
+                  <a href="">About Leaders</a>
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <button class="dropdown-btn">Courses</button>
+                <div class="dropdown-content">
+                  <a href="">MBA</a>
+                  <a href="">BSc IT</a>
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <button class="dropdown-btn">Admission</button>
+                <div class="dropdown-content">
+                  <a href="">Admission Procedure</a>
+                  <a href="">Admission Form</a>
+                  <a href="">Admission Intake</a>
+                  <a href="">Admission Scholarship</a>
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <button class="dropdown-btn">Explore Techspire</button>
+                <div class="dropdown-content">
+                  <a href="">Our Club</a>
+                  <a href="">Our Blog</a>
+                </div>
+              </div>
+
+              <a href="">Career</a>
+              <a href="">Contact Us</a>
+            </div>
+            <div class="buttons">
+              <button class="apply-btn">Apply Now</button>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="content-wrapper">
+        <section class="mba-container">
+          <h2>MBA</h2>
+        </section>
+
+        <section class="college-short-info">
+          <div class="apu-image">
+            <img src="Photos/Malaysia.png" alt="Jpt image" />
+          </div>
+          <div class="info-box">
+            <div class="duration-info info">
+              <div class="image">
+                <img src="Photos/clock.svg" alt="" />
+              </div>
+              <div class="content">
+                <h3>Duration</h3>
+                <p>2 years ( 4 semesters )</p>
+              </div>
+            </div>
+
+            <div class="credit-info border-left info">
+              <div class="image">
+                <img src="Photos/credit.svg" alt="" />
+              </div>
+
+              <div class="content">
+                <h3>Credit Hour</h3>
+                <p>63</p>
+              </div>
+            </div>
+
+            <div class="timing-info border-left info">
+              <div class="image">
+                <img src="Photos/time.svg" alt="" />
+              </div>
+              <div class="content">
+                <h3>College Timing</h3>
+                <p>6:30 a.m to 8.30 a.m.- <span>Lecture Hours</span></p>
+              </div>
+            </div>
+          </div>
+          <h2>Master of Business Administration</h2>
+        </section>
+
+        <section class="college-detailed-info">
+          <div class="college-buttons">
+            <button
+              id="overview-btn"
+              onclick="overviewScene()"
+              class="college-buttons-focused"
+            >
+              Overview
+            </button>
+            <button
+              id="course-struct-btn"
+              onclick="courseScene()"
+              class="college-button"
+            >
+              Course Structure
+            </button>
+            <button
+              id="documents-btn"
+              onclick="documentScene()"
+              class="college-button"
+            >
+              Documents Required
+            </button>
+            <button
+              id="dissertation-btn"
+              onclick="dissertationScene()"
+              class="college-button"
+            >
+              Dissertation
+            </button>
+            <button
+              id="attend-btn"
+              onclick="attendScene()"
+              class="college-button"
+            >
+              Who Should Attend
+            </button>
+            <button
+              id="career-btn"
+              onclick="CareerScene()"
+              class="college-button"
+            >
+              Career Option
+            </button>
+          </div>
+          <p id="displayed-content"></p>
+        </section>
+      </div>
+      <section class="promotion-container">
+        <h2>Are you ready to take the next step towards your future career ?</h2>
+        <button class="apply-btn">APPLY NOW</button>
+      </section>
+    </main>
+  </body>
+  <script src="Techspire.js"></script>
+</html>
